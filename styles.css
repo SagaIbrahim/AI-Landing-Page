@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding: 0;
+	margin: 0;s
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*navbar styling */
+nav{
+	background-color: #1F4682;
+}
+.navbar-toggler{
+	background-color: #22aadf;
+	color: #fff;
+}
+.navbar-toggler span{
+	color: #fff;
+}
+/* end navbar styling */
+
+
+
+
+/* start of home section styling */
+#home{
+	background-color: #2aaddf;
+}
+#home .hero-text{
+	color: #1F4682;
+}
+#home .hero-text span{
+	color: #df5722;
+}
+#home .hero-text h4{
+	color: #fff;
+}
+#home .hero-text {
+	margin-top: 20px;
+	
+}
+
+@media only screen and (min-width: 1406px){
+	#home .hero-text{
+		margin-top: 100px;
+	}
+
+}
+@media only screen and (max-width: 500px){
+	.hero-img img{
+		width: 350px;
+		padding-right: 50px;
+	}
+	
+}
+#home button{
+	color: #fff;
+	border: 5px solid #df5722;
+	border-radius: 50px;
+	background-color: #df5722;
+}
+#home button:hover{
+	background-color: #1F4682;
+	border-color: #1f4682;
+}
+/*end of home section styling */
+
+
+
+
+/* newsletter section styling */
+#newsletter{
+	background-color: #90d4ef;
+}
+
+#newsletter input{
+	border-radius: 50px;
+}
+#newsletter h3{
+	color: #1F4682;
+}
+#newsletter button{
+	background-color:#df5722;
+	border-radius: 50px;
+	border-color: #df5722;
+}
+#newsletter button:hover{
+	background-color: #1F4682;
+	border-color: #1F4682;
+}
+/* end newsletter section styling */
+
+
+
+
+
+/* benefits section styling */
+#benefits .card-head{
+	display: flex;
+	flex-direction: row;
+}
+#benefits .card{
+	height: 100%;
+	background-color: #1F4682;
+	border-radius: 80px;
+}
+#benefits .card-body{
+	align-items: center;
+		
+}
+#benefits .card-body i{
+	color: #df5722;
+}
+/*end of benefits section styling */
+
+
+
+/* about section styling */
+#about {
+	background-color: #e8f6fb;
+	color: #1F4682;
+}
+
+#about img{
+	width: 100%;
+}
+
+@media only screen and (max-width: 767px){
+	.abt-img{
+	margin-bottom: 40px;
+}
+} 
+
+#about-2 {
+	background-color: #1F4682;
+	color: #fff;
+}
+#about-2 button{
+	color: #fff;
+	border: 5px solid #df5722;
+	border-radius: 50px;
+	background-color: #df5722;
+}
+#about-2 button:hover{
+	background-color: #22aadf;
+	border-color: #22aadf;
+	color: #fff;
+}
+#about-2 h2{
+	color: #fff;
+}
+#about-2 span{
+	color: #df5722;
+	border-bottom: 1px solid #df5722;
+	padding-bottom: 3px;
+}
+/* end about section styling */
+
+
+
+/*start questions section styling*/
+#questions .accordion-item{
+	background-color: #e8f6fb;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border-top-left-radius: 60px;
+	border-top-right-radius: 60px;
+}
+#questions h2{
+	color: #1F4682;
+}
+#questions button{
+	background-color: #1F4682;
+	color: #fff;
+	border-radius: 50px;
+}
+/*end questions section styling*/
+
+
+
+/* start footer section */
+#footer{
+	background-color: #1F4682;
+	color: #fff;
+	background-image: url("../../Test/engaj-logo.png");
+	background-position: left;
+	background-repeat: no-repeat 30%;	
+}
+
+#footer a{
+	color: #fff;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #22aadf;
+}
+#footer i{
+	font-size: 25px;
+	margin-right: 10px;
+}
+#footer h5{
+	color: #22aadf;
+}
+/* end footer section */
+
+
+
+/* start modal styling */
+.modal button{
+	background-color: #df5722;
+	color: #fff;
+}
+.modal button:hover{
+	color: #fff;
+	background-color: #1F4682;
+}
+.modal-body, .modal-header, .modal-footer{
+	background-color: #e8f6fb;
+	color: #1F4682;
+}
+.modal-header{
+	color: #df5722;
+}
+.form-control{
+	background-color: #e8f6fb;
+}
+/* end modal styling */
